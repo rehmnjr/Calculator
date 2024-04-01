@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #050022,rgb(234, 0, 255));
+    background: linear-gradient(45deg, #050022,rgb(202, 0, 220));
 
 }
 
@@ -29,7 +29,7 @@ body{
 
 input{
     width: 320px;
-    border: none;
+    border: 1px solid #717377;
     padding: 24px;
     margin: 10px;
     border-radius: 20px;
@@ -63,9 +63,21 @@ button:hover{
 }
 
 .equalbt{
+    background-color: green;
+    font-size: 1.5rem;
+}
+.operator{
+    font-size: 1.5rem;
+}
+.acbtn{
+    background-color: #f9cb00; 
+}
+.delbtn{
     background-color: #fb4a14;
 }
-
 .operator{
     color: #6dee0a;
+}
+button{
+    font-size: 1.1rem;
 }
