@@ -8,18 +8,14 @@
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Lato', sans-serif;
 }
-body{
-    background: linear-gradient(45deg, #050022,rgb(202, 0, 220));
-    overflow-x: hidden;
-}
 
-.body-bg{
+body{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    min-width: 1000px;
+    background: linear-gradient(45deg, #050022,rgb(202, 0, 220));
 }
 
 .calculator{
@@ -28,7 +24,6 @@ body{
     border-radius: 16px;
     background-color: rgb(36, 36, 36);
     box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5) ;
-    max-width: 1000px;
 }
 
 input{
@@ -91,14 +86,4 @@ button{
     background-color: #6dee0a;
     display: flex;
     flex-direction: column;
-}
-.memo1{
-   min-height: 80px;
-    width: 130px;
-   background: #000;
-}
-.memo2{
-    height: 50px;
-    width: 130px;
-background: red;
 }
